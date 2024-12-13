@@ -1,100 +1,100 @@
 <!DOCTYPE html>
 <html lang="id">
-<meta charset='UTF-8'/>
-<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
-<meta content='IE=edge' http-equiv='X-UA-Compatible'/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-<script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
-<link href="https://feeldreams.github.io/maukahkamu/style.css" rel="stylesheet" type="text/css" />
-<script src="https://unpkg.com/scrollreveal"></script>
-
 <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <title>Buat namaorangnya</title>
+    <meta name="description" content="HTML Bucin">
     <link rel="icon" type="image/x-icon" href="https://malasid.github.io/favicon.png">
-    <meta name="description" content="HTML Bucin Malas.id">
+    
+    <!-- Font and Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://feeldreams.github.io/maukahkamu/style.css" rel="stylesheet" type="text/css">
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <div class="overlay" id="overlay">
-        <div class="loading-message">Hai <span id="nama-orang"></span>!<br>Tunggu dulu ya..</div>
+        <div class="loading-message">Hai <span id="nama-orang"></span>!<br>Tunggu dulu ya...</div>
     </div>
 
     <audio src="https://feeldreams.github.io/maukahkamu/seandainya.mp3" id="linkmp3" class="sembunyi"></audio>
    
     <section class="first">
-        <div class="wp"><img id="imgsatu" src="https://feeldreams.github.io/maukahkamu/wpsatu.jpg"/></div>
-        <img id="first_stiker" class="stiker fade-in" src="https://feeldreams.github.io/bunga.gif"/>
+        <div class="wp"><img id="imgsatu" src="https://feeldreams.github.io/maukahkamu/wpsatu.jpg"></div>
+        <img id="first_stiker" class="stiker fade-in" src="https://feeldreams.github.io/bunga.gif">
         <h1 class="title">Hei <span id="nama-hei"></span>!</h1>
         <p class="flip">Aku boleh jujur engga nih? ☺️</p>
         <p class="slide-up"><i>Scroll terus ke bawah ya :)</i></p>
     </section>
-  
+
     <section>
-        <div class="wp"><img id="imgdua" src="https://feeldreams.github.io/maukahkamu/wpdua.jpg"/></div>
-        <img class="stiker fade-in" src="https://feeldreams.github.io/pusn.gif"/>
+        <div class="wp"><img id="imgdua" src="https://feeldreams.github.io/maukahkamu/wpdua.jpg"></div>
+        <img class="stiker fade-in" src="https://feeldreams.github.io/pusn.gif">
         <h2 class="title"><i>Sebenernya..</i></h2>
-        <p class="slide-right">Aku suka sama kamu <b class="lingkar"><span id="nama-suka"></span>..
-        </b> :(</p>
+        <p class="slide-right">Aku suka sama kamu <b class="lingkar"><span id="nama-suka"></span>..</b> :(</p>
     </section>
   
     <section>
-        <div class="wp"><img id="imgtiga" src="https://feeldreams.github.io/maukahkamu/wptiga.jpg"/></div>
-        <p id="teksnimasi">Kalo <span id="nama-tanya"></span> tanya kenapa aku suka sama <span id="nama-tanya2"></span>, itu karena aku punya rasa nyaman tersendiri yang ga akan aku temui di mana pun.<br><br><b><i>Kamu Tau?</i></b><br>Gaada yang bisa bikin aku nyaman selain kamu <span id="nama-nyaman"></span>..<br><br>Dan karena mengenalimu, aku merasakan apa itu kenyamanan, apa itu kebahagiaan, dan kamu sekaligus rumah bagiku :)</p>
+        <div class="wp"><img id="imgtiga" src="https://feeldreams.github.io/maukahkamu/wptiga.jpg"></div>
+        <p id="teksnimasi">Kalo <span id="nama-tanya"></span> tanya kenapa aku suka sama <span id="nama-tanya2"></span>, itu karena aku punya rasa nyaman tersendiri yang ga akan aku temui di mana pun.</p>
     </section>
-  
+
     <section>
-        <div class="wp"><img id="imgempat" src="https://feeldreams.github.io/maukahkamu/wpempat.jpg"/></div>
-        <img class="stiker fade-in" src="https://feeldreams.github.io/bunga.gif"/>
+        <div class="wp"><img id="imgempat" src="https://feeldreams.github.io/maukahkamu/wpempat.jpg"></div>
+        <img class="stiker fade-in" src="https://feeldreams.github.io/bunga.gif">
         <h2 class="title"><i>Intinya,</i></h2>
-        <p class="slide-right"><b><span id="nama-ajakan"></span>, Mau Gak<br>Jadi Pacar Aku? 😍❤️</b></p>
+        <p class="slide-right"><b><span id="nama-ajakan"></span>, Mau Gak Jadi Pacar Aku? 😍❤️</b></p>
         <div id="Tombol">
             <a id="By" onClick="fungsimau()">Mau</a>
             <a id="Bn" onClick="fungsigamau()">Gamau</a>
         </div>
     </section>
-  
+
     <section id="iniakhir">
-        <div class="wp" id="wpakhir"><img src="https://feeldreams.github.io/maukahkamu/wplima.jpg"/></div>
-        <img id="stikerakhir" class="stiker fade-in" src="https://feeldreams.github.io/g5.gif"/>
-        <img id="stikerakhir2" style="display:none" src="https://feeldreams.github.io/emawh.gif"/>
+        <div class="wp" id="wpakhir"><img src="https://feeldreams.github.io/maukahkamu/wplima.jpg"></div>
         <h1 id="judulakhir"></h1>
         <p id="kalimatakhir"></p>
-        <p id="palingakhir"></p>
-        <div id="TombolWA">
-            <a onClick="menuju()">Balas 💌</a>
-        </div>
     </section>
 
     <script>
-        // Ambil nama dari parameter URL
+        // Ambil parameter nama
         const urlParams = new URLSearchParams(window.location.search);
-        const nama = urlParams.get('nama') || "namaorangnya"; // Default nama jika tidak ada parameter
+        const nama = urlParams.get('nama') || "namaorangnya";
 
-        // Masukkan nama ke elemen-elemen yang sesuai
-        document.querySelectorAll('#nama-orang, #nama-hei, #nama-suka, #nama-tanya, #nama-tanya2, #nama-nyaman, #nama-ajakan').forEach(el => {
+        // Debugging
+        console.log("Nama yang diterima:", nama);
+
+        // Masukkan nama ke elemen
+        document.querySelectorAll('#nama-orang, #nama-hei, #nama-suka, #nama-tanya, #nama-tanya2, #nama-ajakan').forEach(el => {
             el.textContent = nama;
         });
 
-        // Hilangkan overlay setelah beberapa detik
-        document.getElementById('overlay').style.display = "none";
+        // Hilangkan overlay setelah 2 detik
+        const overlay = document.getElementById("overlay");
+        setTimeout(() => {
+            overlay.style.display = "none";
+        }, 2000);
 
+        // Fungsi tombol
         function fungsimau() {
-            fungsi = 0; tes();
-            teksjudulakhir = "Yeayyy! 🥳";
-            tekskalimatakhir = `Makasii ${nama} udah mau nerima<br>aku jadi pacar kamu, hihi 🤭❤️`;
+            document.getElementById("judulakhir").textContent = "Yeayyy! 🥳";
+            document.getElementById("kalimatakhir").innerHTML = `Makasii ${nama} udah mau jadi pacar aku ❤️`;
         }
 
         function fungsigamau() {
-            fungsi = 0; tes();
-            teksjudulakhir = "Yahhh 😫";
-            tekskalimatakhir = `Yaudah kalo kamu gamau,<br>biar aku aja yang jadi<br>pacar kamu, hehe 😆❤️`;
+            document.getElementById("judulakhir").textContent = "Yahhh 😭";
+            document.getElementById("kalimatakhir").innerHTML = `Kalau gamau, biar aku aja yang jadi pacar kamu! 😘`;
         }
     </script>
 </body>
 </html>
-
